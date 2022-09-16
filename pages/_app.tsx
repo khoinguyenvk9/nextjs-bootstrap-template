@@ -5,11 +5,17 @@ import 'styles/custom.scss'
 import 'styles/borders.css'
 import 'styles/chip.css'
 import 'styles/text.css'
-
+import 'styles/spacing.css'
+import 'styles/animations.css'
+import MyLayout from '@modules/layouts/MyLayout'
 import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <MyLayout>
+      <Component {...pageProps} />
+    </MyLayout>
+  )
 }
 
 export default MyApp

@@ -1,8 +1,19 @@
-const MyLayout = () => {
-  return (
-    <div>
+import { FC, ReactNode } from 'react'
+import Meta from './Meta'
+import { Header } from './headers'
 
-    </div>
+const MyLayout:FC<{children: ReactNode}> = ({ children }) => {
+  return (
+    <>
+      <Meta></Meta>
+       <div className="main-container">
+        <Header />
+        <main id="content" role="main">
+          {children}
+        </main>
+      </div>
+
+    </>
   )
 }
 
