@@ -19,8 +19,39 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
 }
+
+.main-container main {
+  padding: 15px 0px;
+}
+
+.menu-offcanvas {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.061);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 2s;
+}
+
+.menu-offcanvas i {
+  font-size: xx-large;
+  display: flex;
+}
+
+.menu-offcanvas:hover::after {
+  content: 'Documents';
+  transition: all 2s;
+
+}
+
+.card {}
