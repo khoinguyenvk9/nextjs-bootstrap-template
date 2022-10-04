@@ -1,6 +1,8 @@
 import { Navbar, Container, Form } from 'react-bootstrap'
 const Header = () => {
   return (
+    <div>
+
     <Navbar className="border">
       <Container>
         <Navbar.Brand className="fs-1" href="#home">MY UI</Navbar.Brand>
@@ -20,6 +22,10 @@ const Header = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+      <div className="bg-light py-3 position-sticky top-0">
+        Test nhealkshd kasd
+      </div>
+    </div>
   )
 }
 

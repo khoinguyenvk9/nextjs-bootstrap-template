@@ -28,6 +28,36 @@ const Colors: NextPage = () => {
           ))
         }
       </div>
+      <h3>Darken</h3>
+      <div className="d-flex flex-row flex-wrap">
+        {
+          arrayNumber.map((item) => (
+            <div key={item} className={`px-5 py-2 bg-primary-darken-${item}`}>
+              primary {item}%
+            </div>
+          ))
+        }
+      </div>
+      <h3>Tint</h3>
+      <div className="d-flex flex-row flex-wrap">
+        {
+          arrayNumber.map((item) => (
+            <div key={item} className={`px-5 py-2 bg-primary-tint-${item}`}>
+              primary {item}%
+            </div>
+          ))
+        }
+      </div>
+      <h3>Shade</h3>
+      <div className="d-flex flex-row flex-wrap">
+        {
+          arrayNumber.map((item) => (
+            <div key={item} className={`px-5 py-2 bg-primary-shade-${item}`}>
+              primary {item}%
+            </div>
+          ))
+        }
+      </div>
       <div className="d-flex flex-row flex-wrap">
         {
           arrayNumber.map((item) => (
