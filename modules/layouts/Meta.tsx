@@ -19,7 +19,6 @@ const Meta = () => {
       <link type="image/x-icon" rel="shortcut icon" href={``} />
       <link rel="apple-touch-icon" href={``} />
     </Head>
-
   )
 }
 

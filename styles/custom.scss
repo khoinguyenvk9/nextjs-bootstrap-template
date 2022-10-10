@@ -18,6 +18,14 @@ $green: #198754;
 $teal: #20c997;
 $cyan: #0dcaf0;
 
+:root {
+  --theme-color: #33a4b6;
+  --color-placeholder: #e9e9e9;
+  --color-text: #ddd;
+  --color-title: #ddd;
+  --color-text-desc: #6c757d;
+}
+
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
@@ -27,6 +35,8 @@ $theme-colors: (
   "warning": $warning,
   "success": $success,
 );
+
+/*$variants: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'danger' | 'light' | 'dark*/
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 .custom-element {

@@ -7,8 +7,10 @@ import 'styles/chip.css'
 import 'styles/text.css'
 import 'styles/spacing.css'
 import 'styles/animations.css'
+import 'styles/prism.css'
 import MyLayout from '@modules/layouts/MyLayout'
 import type { AppProps } from 'next/app'
+import "prismjs/themes/prism-tomorrow.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
