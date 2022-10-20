@@ -10,6 +10,10 @@ const TextPage = () => {
       <div className="display-4 fw-bold">Display 4</div>
       <div className="display-5 fw-bold">Display 5</div>
       <div className="display-6 fw-bold">Display 6</div>
+
+      <div className="container">
+        <h1 className="d-flex align-items-center"></h1>
+      </div>
     </Container>
   )
 }

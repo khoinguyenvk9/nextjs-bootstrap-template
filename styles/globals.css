@@ -55,3 +55,7 @@ a {
 }
 
 .card {}
+
+.bg-main {
+  background-color: var(--bg-main);
+}
