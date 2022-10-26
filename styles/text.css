@@ -61,3 +61,54 @@
 .fw-semi-bold {
   font-weight: 600;
 }
+
+.fw-bold {
+  font-weight: bold !important;
+}
+
+/* Display */
+
+/*
+ * .display-1 {
+  font-size: 80px;
+.display-2 { font-size: 70px }
+
+@media (min-width: 576px) {
+  .display-1: {
+    font-size: 36px !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .display-1: {
+    font-size: 48px !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .display-1: {
+    font-size: 56px !important;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .display-1: {
+    font-size: 80px !important;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  .display-1: {
+    font-size: 93px !important;
+  }
+}*/
+
+.text-ellipsis-nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

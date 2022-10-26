@@ -19,7 +19,6 @@
   border-left-width: .2px;
 }
 
-
 /* Border radius */
 .rouned-s {
   border-radius: 8px;
@@ -31,4 +30,29 @@
 
 .rounded-l {
   border-radius: 16px;
+}
+
+/* border style */
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-top-dashed {
+  border-top: 1px dashed #ddd;
+}
+
+.border-bottom-dashed {
+  border-top: 1px dashed #ddd;
+}
+
+.border-left-dashed {
+  border-top: 1px dashed #ddd;
+}
+
+.border-right-dashed {
+  border-top: 1px dashed #ddd;
+}
+
+.border-dotted {
+  border-style: dotted;
 }

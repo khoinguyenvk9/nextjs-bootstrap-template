@@ -1,3 +1,41 @@
+// {
+//   "extends": "next/core-web-vitals"
+// }
 {
-  "extends": "next/core-web-vitals"
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.ts",
+        "*.tsx",
+        "*.d.ts",
+        "*.js"
+      ],
+      "rules": {
+        "prettier/prettier": "warn",
+        "@typescript-eslint/no-shadow": "warn",
+        "no-shadow": "off",
+        "no-undef": "off",
+        "semi": "off",
+        "eqeqeq": "off",
+        "@typescript-eslint/no-unused-vars": "off",
+        "no-unused-vars": "warn",
+        "no-debugger": "off",
+        "@typescript-eslint/ban-types": "warn",
+        "prefer-const": "warn",
+        "@typescript-eslint/no-empty-function": "warn",
+        "@typescript-eslint/no-explicit-any": "off"
+      }
+    }
+  ]
 }

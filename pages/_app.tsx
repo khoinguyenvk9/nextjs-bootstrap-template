@@ -1,15 +1,23 @@
-import '../styles/globals.css'
+import 'styles/globals.css'
 import "bootstrap-icons/font/bootstrap-icons.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import '../styles/custom.scss'
+import 'styles/custom.scss'
 import 'styles/borders.css'
 import 'styles/chip.css'
 import 'styles/text.css'
-
+import 'styles/spacing.css'
+import 'styles/animations.css'
+import 'styles/prism.css'
+import MyLayout from '@modules/layouts/MyLayout'
 import type { AppProps } from 'next/app'
+import "prismjs/themes/prism-tomorrow.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return (
+    <MyLayout>
+      <Component {...pageProps} />
+    </MyLayout>
+  )
 }
 
 export default MyApp

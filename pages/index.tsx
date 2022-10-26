@@ -14,12 +14,13 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! template example</a>
         </h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.tsx</code>
+          <h1>Create Next App by Khoi Nguyen</h1>
         </p>
 
         <div className={styles.grid}>
@@ -35,16 +36,14 @@ const Home: NextPage = () => {
 
           <a
             href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
+            className={styles.card}>
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+            className={styles.card}>
             <h2>Deploy &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
@@ -57,8 +56,7 @@ const Home: NextPage = () => {
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer"
-        >
+          rel="noopener noreferrer">
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
