@@ -54,7 +54,14 @@ a {
 
 }
 
-.card {}
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;
+
+}
+.card:hover {
+  background-color: var(--theme-color)
+}
 
 .bg-main {
   background-color: var(--bg-main);

@@ -106,3 +106,9 @@
     font-size: 93px !important;
   }
 }*/
+
+.text-ellipsis-nowrap {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
