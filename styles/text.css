@@ -112,3 +112,40 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.title-1 {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 1;
+}
+
+.title-2 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 1.1;
+}
+
+.title-3 {
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 1.2;
+}
+
+.title-4 {
+  font-size: 20px;
+  font-weight: 600px;
+  line-height: 1.2;
+}
+
+.title-5 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ddd;
+  line-height: 1;
+}
